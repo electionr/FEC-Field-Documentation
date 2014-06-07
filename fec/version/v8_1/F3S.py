@@ -1,0 +1,42 @@
+import fechbase
+class Records(fechbase.RecordsBase):
+    def __init__(self):
+        fechbase.RecordsBase.__init__(self)
+        self.fields = [
+            {'name': 'FORM TYPE', 'number': '1'},
+            {'name': 'FILER COMMITTEE ID NUMBER', 'number': '2'},
+            {'name': 'Date - General Election', 'number': '3'},
+            {'name': 'Date - Day after General Election', 'number': '4'},
+            {'name': 'Total Contributions (No Loans)', 'number': '5-(6a)'},
+            {'name': 'Total Contribution Refunds', 'number': '6-(6b)'},
+            {'name': 'Net Contributions', 'number': '7-(6c)'},
+            {'name': 'Total Operating Expenditures', 'number': '8-(7a)'},
+            {'name': 'Total Offsets to Operating Expenditures', 'number': '9-(7b)'},
+            {'name': 'NET Operating Expenditures.', 'number': '10-(7c)'},
+            {'name': 'Individuals Itemized', 'number': '11-11(a i.)'},
+            {'name': 'Individuals Unitemized', 'number': '12-11(a.ii)'},
+            {'name': 'Individuals Total', 'number': '13-11(a.iii)'},
+            {'name': 'Political Party Committees', 'number': '14-11(b)'},
+            {'name': 'All Other Political Committees (PACS)', 'number': '15-11(c)'},
+            {'name': 'The Candidate', 'number': '16-11(d)'},
+            {'name': 'Total Contributions', 'number': '17-11(e)'},
+            {'name': 'Transfers From Other AUTH Committees', 'number': '18-12.'},
+            {'name': 'Loans made or guarn. by the Candidate', 'number': '19-13(a)'},
+            {'name': 'All Other Loans', 'number': '20-13(b)'},
+            {'name': 'Total Loans', 'number': '21-13(c)'},
+            {'name': 'Offsets to Operating Expenditures', 'number': '22-14.'},
+            {'name': 'Other Receipts', 'number': '23-15.'},
+            {'name': 'Total Receipts', 'number': '24-16.'},
+            {'name': 'Operating Expenditures', 'number': '25-17'},
+            {'name': 'Transfers To Other AUTH Committees', 'number': '26-18.'},
+            {'name': 'Loan Repayment By Candidate', 'number': '27-19(a)'},
+            {'name': 'Loan Repayments, ALL Other Loans', 'number': '28-19(b)'},
+            {'name': 'Total Loan Repayments', 'number': '29-19(c)'},
+            {'name': 'Refund/Individuals Other than Pol. Cmtes', 'number': '30-20(a)'},
+            {'name': 'Refund, Political Party Committees', 'number': '31-20(b)'},
+            {'name': 'Refund, Other Political Committees', 'number': '32-20(c)'},
+            {'name': 'Total Contributions Refunds', 'number': '33-20(d)'},
+            {'name': 'Other Disbursements', 'number': '34-21.'},
+            {'name': 'Total Disbursements', 'number': '35-22.'},
+    ]
+        self.fields_names = self.hash_names(self.fields)
