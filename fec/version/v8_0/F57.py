@@ -25,7 +25,7 @@ class Records(fechbase.RecordsBase):
             {'name': 'CALENDAR Y-T-D (per election/office)', 'number': '20'},
             {'name': 'EXPENDITURE PURPOSE DESCRIP', 'number': '21'},
             {'name': 'CATEGORY CODE', 'number': '22'},
-            {'name': 'PAYEE Committee FEC ID NUMBER', 'number': '23'},
+            {'name': 'PAYEE CMTTE FEC ID NUMBER', 'number': '23'},
             {'name': 'SUPPORT/OPPOSE CODE', 'number': '24'},
             {'name': 'S/O CANDIDATE ID NUMBER', 'number': '25'},
             {'name': 'S/O CANDIDATE LAST NAME', 'number': '26'},

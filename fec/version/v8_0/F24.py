@@ -5,7 +5,7 @@ class Records(fechbase.RecordsBase):
         self.fields = [
             {'name': 'FORM TYPE', 'number': '1'},
             {'name': 'FILER COMMITTEE ID NUMBER', 'number': '2'},
-            {'name': 'REPORT TYPE (24/48 Hour)', 'number': '3'},
+            {'name': 'REPORT TYPE {24/48 Hour}', 'number': '3'},
             {'name': 'ORIGINAL AMENDMENT DATE', 'number': '4'},
             {'name': 'COMMITTEE NAME', 'number': '5'},
             {'name': 'STREET 1', 'number': '6'},

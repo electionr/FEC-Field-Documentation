@@ -12,7 +12,7 @@ class Records(fechbase.RecordsBase):
             {'name': 'CITY', 'number': '7'},
             {'name': 'STATE', 'number': '8'},
             {'name': 'ZIP', 'number': '9'},
-            {'name': 'TRANS Purpose DESCRIP', 'number': '10'},
+            {'name': 'TRANS {Purpose} DESCRIP', 'number': '10'},
             {'name': 'Of Expenditure', 'number': '11-'},
             {'name': 'AMOUNT', 'number': '12'},
             {'name': 'SUPPORT/OPPOSE', 'number': '13'},
@@ -36,7 +36,7 @@ class Records(fechbase.RecordsBase):
             {'name': 'AMENDED CD', 'number': '31'},
             {'name': 'TRAN ID', 'number': '32'},
             {'name': 'CATEGORY CODE', 'number': '33'},
-            {'name': 'TRANS Purpose CODE', 'number': '34'},
+            {'name': 'TRANS {Purpose} CODE', 'number': '34'},
             {'name': 'Calendar YTD for election/office sought', 'number': '35'},
     ]
         self.fields_names = self.hash_names(self.fields)

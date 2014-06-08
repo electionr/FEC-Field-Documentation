@@ -7,7 +7,7 @@ wb = load_workbook(filename = r'e-filing headers all versions.xlsx')
 
 ws = wb.get_sheet_by_name('all versions')
 
-with codecs.open('a_file.csv','w',encoding='utf-8') as f:
+with codecs.open('e-filing headers all versions.csv','w',encoding='utf-8') as f:
     c = csv.writer(f)
     for r in ws.rows:
         n = []

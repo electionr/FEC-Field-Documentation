@@ -34,7 +34,7 @@ class Records(fechbase.RecordsBase):
             {'name': 'Activity is an Exempt Activity', 'number': '29-'},
             {'name': 'Activity is Generic Voter Drive - Only', 'number': '30-'},
             {'name': 'Activity is Direct Candidate Support', 'number': '31-'},
-            {'name': 'Activity is Party Public Communications Made by PAC', 'number': '32-'},
+            {'name': '(Activity is Public Communications {Referring Only to Party} Made by PAC', 'number': '32-'},
             {'name': 'MEMO CODE', 'number': '33'},
             {'name': 'MEMO TEXT/DESCRIPTION', 'number': '34'},
     ]

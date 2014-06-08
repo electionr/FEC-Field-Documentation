@@ -12,7 +12,7 @@ class Records(fechbase.RecordsBase):
             {'name': 'CITY', 'number': '7'},
             {'name': 'STATE', 'number': '8'},
             {'name': 'ZIP', 'number': '9'},
-            {'name': 'TRANS Purpose DESCRIP', 'number': '10'},
+            {'name': 'TRANS {Purpose} DESCRIP', 'number': '10'},
             {'name': 'DATE', 'number': '11'},
             {'name': 'TOTAL AMOUNT', 'number': '12'},
             {'name': 'FEDERAL SHARE', 'number': '13'},

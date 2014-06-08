@@ -23,7 +23,7 @@ class Records(fechbase.RecordsBase):
             {'name': 'ELECTION CODE', 'number': '18'},
             {'name': 'ELECTION OTHER DESCRIPTION', 'number': '19'},
             {'name': 'CONTRIBUTION DATE', 'number': '20'},
-            {'name': 'CONTRIBUTION AMOUNT (F3L Bundled)', 'number': '21'},
+            {'name': 'CONTRIBUTION AMOUNT {F3L Bundled}', 'number': '21'},
             {'name': 'CONTRIBUTION AGGREGATE', 'number': '22'},
             {'name': 'CONTRIBUTION PURPOSE CODE', 'number': '23'},
             {'name': 'CONTRIBUTION PURPOSE DESCRIP', 'number': '24'},

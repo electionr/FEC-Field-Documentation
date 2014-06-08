@@ -23,7 +23,7 @@ class Records(fechbase.RecordsBase):
             {'name': 'STATE', 'number': '18'},
             {'name': 'ZIP', 'number': '19'},
             {'name': 'AGG. GENERAL ELECT AMOUNT EXPENDED', 'number': '20'},
-            {'name': 'TRANS Purpose DESCRIP', 'number': '21'},
+            {'name': 'TRANS {Purpose} DESCRIP', 'number': '21'},
             {'name': 'DATE', 'number': '22'},
             {'name': 'AMOUNT', 'number': '23'},
             {'name': 'FEC COMMITTEE ID NUMBER', 'number': '24'},

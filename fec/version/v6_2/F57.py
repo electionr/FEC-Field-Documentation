@@ -26,7 +26,7 @@ class Records(fechbase.RecordsBase):
             {'name': 'EXPENDITURE PURPOSE CODE', 'number': '21'},
             {'name': 'EXPENDITURE PURPOSE DESCRIP', 'number': '22'},
             {'name': 'CATEGORY CODE', 'number': '23'},
-            {'name': 'PAYEE Committee FEC ID NUMBER', 'number': '24'},
+            {'name': 'PAYEE CMTTE FEC ID NUMBER', 'number': '24'},
             {'name': 'SUPPORT/OPPOSE CODE', 'number': '25'},
             {'name': 'S/O CANDIDATE ID NUMBER', 'number': '26'},
             {'name': 'S/O CANDIDATE LAST NAME', 'number': '27'},

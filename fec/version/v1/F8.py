@@ -33,7 +33,7 @@ class Records(fechbase.RecordsBase):
             {'name': 'IF YES how will the funds be disbursed', 'number': '28-15. '},
             {'name': 'PART IIIYESNO (Does committee have sufficient funds to pay the remaining amts to be paid or offered.', 'number': '29'},
             {'name': 'N If no, what steps will be taken to obtain the funds.', 'number': '30-PART III '},
-            {'name': 'Treasurer\xe2\x80\x99s NAME', 'number': '31'},
+            {'name': 'Treasurer?s NAME', 'number': '31'},
             {'name': 'SIGNED', 'number': '32-'},
     ]
         self.fields_names = self.hash_names(self.fields)

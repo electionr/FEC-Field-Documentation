@@ -12,7 +12,7 @@ class Records(fechbase.RecordsBase):
             {'name': 'CITY', 'number': '7'},
             {'name': 'STATE', 'number': '8'},
             {'name': 'ZIP', 'number': '9'},
-            {'name': 'TRANS Purpose DESCRIP', 'number': '10'},
+            {'name': 'TRANS {Purpose} DESCRIP', 'number': '10'},
             {'name': 'DATE', 'number': '11'},
             {'name': 'TOTAL AMOUNT', 'number': '12'},
             {'name': 'FEDERAL SHARE', 'number': '13'},
@@ -45,6 +45,6 @@ class Records(fechbase.RecordsBase):
             {'name': 'Activity is Generic Voter Drive - Only', 'number': '40-'},
             {'name': 'CATEGORY CODE', 'number': '41'},
             {'name': 'TRANS CODE', 'number': '42'},
-            {'name': 'Activity is PAC Public Communications Referring Only to Party', 'number': '43-'},
+            {'name': 'Activity is Public Communications Referring Only to Party {Made by PAC}', 'number': '43-'},
     ]
         self.fields_names = self.hash_names(self.fields)

@@ -23,7 +23,7 @@ class Records(fechbase.RecordsBase):
             {'name': 'ELECTION CODE', 'number': '18'},
             {'name': 'ELECTION OTHER DESCRIPTION', 'number': '19'},
             {'name': 'EXPENDITURE DATE', 'number': '20'},
-            {'name': 'EXPENDITURE AMOUNT (F3L Bundled)', 'number': '21'},
+            {'name': 'EXPENDITURE AMOUNT {F3L Bundled}', 'number': '21'},
             {'name': 'SEMI-ANNUAL REFUNDED BUNDLED AMT', 'number': '22'},
             {'name': 'EXPENDITURE PURPOSE DESCRIP', 'number': '23'},
             {'name': 'CATEGORY CODE', 'number': '24'},

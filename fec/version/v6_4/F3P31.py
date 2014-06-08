@@ -18,7 +18,7 @@ class Records(fechbase.RecordsBase):
             {'name': 'CONTRIBUTOR CITY', 'number': '13'},
             {'name': 'CONTRIBUTOR STATE', 'number': '14'},
             {'name': 'CONTRIBUTOR ZIP', 'number': '15'},
-            {'name': 'ELECTION CODE', 'number': '16'},
+            {'name': 'ELECTION CODE {was RPTPGI}', 'number': '16'},
             {'name': 'ITEM DESCRIPTION', 'number': '17'},
             {'name': 'ITEM CONTRIBUTION/AQUIRED DATE', 'number': '18'},
             {'name': 'ITEM FAIR MARKET VALUE', 'number': '19'},

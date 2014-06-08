@@ -14,7 +14,7 @@ class Records(fechbase.RecordsBase):
             {'name': 'ZIP', 'number': '9'},
             {'name': 'CATEGORY CODE', 'number': '10'},
             {'name': 'TRANS CODE', 'number': '11'},
-            {'name': 'TRANS Purpose DESCRIP', 'number': '12'},
+            {'name': 'TRANS {Purpose} DESCRIP', 'number': '12'},
             {'name': 'DATE', 'number': '13'},
             {'name': 'TOTAL AMOUNT', 'number': '14'},
             {'name': 'FEDERAL SHARE', 'number': '15'},

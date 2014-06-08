@@ -11,6 +11,7 @@ import fec.version.v6_3
 import fec.version.v6_4
 import fec.version.v7_0
 import fec.version.v8_0
+import fec.version.v8_1
 import fechbase
 class Versions(fechbase.VersionsBase):
     def __init__(self):
@@ -29,4 +30,5 @@ class Versions(fechbase.VersionsBase):
             'v6.4' : fec.version.v6_4.Version,
             'v7.0' : fec.version.v7_0.Version,
             'v8.0' : fec.version.v8_0.Version,
+            'v8.1' : fec.version.v8_1.Version,
         }

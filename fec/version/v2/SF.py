@@ -7,7 +7,7 @@ class Records(fechbase.RecordsBase):
             {'name': 'FILER FEC CMTE ID', 'number': '2'},
             {'name': 'HAS FILER BEEN DESIG TO MAKE CORD. EXPEND.', 'number': '3-'},
             {'name': 'FEC COMMITTEE ID NUMBER', 'number': '4'},
-            {'name': 'DESIGNATING COMMITTEES. COMMITTEE NAME', 'number': '5'},
+            {'name': 'DESIGNATING CMTES. COMMITTEE NAME', 'number': '5'},
             {'name': 'FEC COMMITTEE ID NUMBER SUBORDINATE CMTE', 'number': '6'},
             {'name': 'COMMITTEE NAME', 'number': '7'},
             {'name': 'STREET 1', 'number': '8'},

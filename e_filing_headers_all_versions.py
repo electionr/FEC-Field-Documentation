@@ -332,12 +332,36 @@ def proc(version,key,field):
         (number,name) = items
         return emit(version,key,field,number,name)
 
+    #'=CONCATENATE(N587,"-",N588)'
+    match = re.match(r'=CONCATENATE\(\w+\d+\,\"\-\"\,\w+\d+\)', field)
+    if (match):
+        return None
 
     #                  11111-(111ss333333) 12.      BBBB
     match = re.match(r'\s*(\d+\-\([a-z]+\)\s\d+\.?)\s*([A-Za-z].+)', field)
     if (match):
         items = match.groups()
         (number,name) = items
+        return emit(version,key,field,number,name)
+
+    #31-YES/NO (Activity is Public Communications {Referring Only to Party} Made by PAC'
+    match = re.match(r'\s*(\d+\-)(YES\/NO)\s(\([A-Za-z\{\}\.].+)', field)
+    if (match):
+        items = match.groups()
+        (number,ftype,name) = items
+        return emit(version,key,field,number,name)
+
+
+    match = re.match(r'\s*(\d+\-[A-F]\.)\s(YESNO)\s(\([A-Za-z\.].+)', field)
+    if (match):
+        items = match.groups()
+        (number,ftype,name) = items
+        return emit(version,key,field,number,name)
+
+    match = re.match(r'\s*(\d+\-[A-F])\s(YESNO)\s(\([A-Za-z\s\.]+)', field)
+    if (match):
+        items = match.groups()
+        (number,ftype,name) = items
         return emit(version,key,field,number,name)
 
     match = re.match(r'\s*(\d+\-[A-F]\.)\s([A-Za-z].+)', field)
@@ -408,6 +432,26 @@ def proc(version,key,field):
 
     #55-6(a)Cash on Hand
     match = re.match(r'(\d+\-\d\(a\))([A-Za-z].+)', field)
+    if (match):
+        items = match.groups()
+        (number,name) = items
+        return emit(version,key,field,number,name)
+
+    match = re.match(r'(\d+)\-\?\s(\w+)\s\(([A-Za-z\/].+)', field)
+    if (match):
+        items = match.groups()
+        (number,ftype,name) = items
+        return emit(version,key,field,number,name)
+
+    #28-? ORGANIZATION TYPE
+    match = re.match(r'(\d+)\-\?\s(\w+)', field)
+    if (match):
+        items = match.groups()
+        (number,name) = items
+        return emit(version,key,field,number,name)
+
+    #32-28(a)  Individuals
+    match = re.match(r'(\d+\-\d+\(\w\))\s+(\w+)', field)
     if (match):
         items = match.groups()
         (number,name) = items

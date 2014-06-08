@@ -32,7 +32,7 @@ class Records(fechbase.RecordsBase):
             {'name': 'Loan Repayment By Candidate', 'number': '27-19(a)'},
             {'name': 'Loan Repayments, ALL Other Loans', 'number': '28-19(b)'},
             {'name': 'Total Loan Repayments', 'number': '29-19(c)'},
-            {'name': 'Refund/Individuals Other than Political Committees', 'number': '30-20(a)'},
+            {'name': 'Refund/Individuals Other than Pol. Cmtes', 'number': '30-20(a)'},
             {'name': 'Refund, Political Party Committees', 'number': '31-20(b)'},
             {'name': 'Refund, Other Political Committees', 'number': '32-20(c)'},
             {'name': 'Total Contributions Refunds', 'number': '33-20(d)'},

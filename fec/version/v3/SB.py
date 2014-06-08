@@ -36,6 +36,6 @@ class Records(fechbase.RecordsBase):
             {'name': 'TRAN ID', 'number': '31'},
             {'name': 'BACK REF TRAN ID', 'number': '32'},
             {'name': 'BACK REF SCHED NAME', 'number': '33'},
-            {'name': 'NAT Committee NON-FED ACCT', 'number': '34'},
+            {'name': 'NAT CMTTE NON-FED ACCT', 'number': '34'},
     ]
         self.fields_names = self.hash_names(self.fields)
