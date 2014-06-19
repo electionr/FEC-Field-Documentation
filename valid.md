@@ -1,18 +1,15 @@
 
 #Valid Schedules and Summary Page Line Numbers for various FEC Forms
-http://www.fec.gov/info/forms.shtml
+Source : http://www.fec.gov/info/forms.shtml
+some items from fech: http://nytimes.github.io/Fech/
 
-ie_only_letter.pdf
-noncontribution_letter.pdf
-
-some items from fech:
-http://nytimes.github.io/Fech/
 
 Form 1
 ======
 Forms for Candidates and Authorized Committees
 Form 1 	Statement of Organization [PDF] used to register campaign committees.  Instructions [PDF]
 Form 1 (SF) 	Screen-fillable version of the Statement of Organization [PDF]
+http://www.fec.gov/pdf/forms/fecfrm1sf.pdf
 
 Form 1 (SF-Plus) 	Screen-fillable version of the Statement of Organization with audio instructions. [PDF]
 
@@ -26,18 +23,18 @@ Form 1 (SF) SSFs 	Screen-fillable version of the Statement of Organization with 
 
 
 F1 (Statement of Organization)
-* fecfrm1auth.pdf
-* fecfrm1i.pdf
-* fecfrm1nc.pdf
-* fecfrm1.pdf
-* fecfrm1sf.pdf
+* http://www.fec.gov/pdf/forms/fecfrm1auth.pdf
+* http://www.fec.gov/pdf/forms/fecfrm1i.pdf
+* http://www.fec.gov/pdf/forms/fecfrm1nc.pdf
+* http://www.fec.gov/pdf/forms/fecfrm1.pdf
+* http://www.fec.gov/pdf/forms/fecfrm1sf.pdf
 
 Form 1M
 =======
 Form 1M 	Notification of Multicandidate Status [PDF] filed by parties and PACs. 
 Instructions [PDF]
-* fecfrm1mi.pdf
-* fecfrm1m.pdf
+* http://www.fec.gov/pdf/forms/fecfrm1mi.pdf
+* http://www.fec.gov/pdf/forms/fecfrm1m.pdf
 
 
 Form 2
@@ -47,24 +44,21 @@ Senate and President.  Instructions [PDF]
     F2 (Statement of Candidacy)
     
 Form 2 (SF) 	Screen-fillable version of the Statement of Candidacy with audio instructions [PDF]
-fecfrm2cand.pdf
-fecfrm2i.pdf
-fecfrm2.pdf
+* http://www.fec.gov/pdf/forms/fecfrm2cand.pdf
+* http://www.fec.gov/pdf/forms/fecfrm2i.pdf
+* http://www.fec.gov/pdf/forms/fecfrm2.pdf
 
 
 Form 3
 ======
-[fecfrm3li.pdf,fecfrm3l.pdf,fecfrm3.pdf]
-
-fecfrm3li.pdf
-fecfrm3l.pdf
-fecfrm3.pdf
-
-fecfrm3x_06.pdf
-fecfrm3xi_05.pdf
-fecfrm3xi_06.pdf
-fecfrm3xi.pdf
-fecfrm3x.pdf
+* http://www.fec.gov/pdf/forms/fecfrm3li.pdf
+* http://www.fec.gov/pdf/forms/fecfrm3l.pdf
+* http://www.fec.gov/pdf/forms/fecfrm3.pdf
+* http://www.fec.gov/pdf/forms/fecfrm3x_06.pdf
+* http://www.fec.gov/pdf/forms/fecfrm3xi_05.pdf
+* http://www.fec.gov/pdf/forms/fecfrm3xi_06.pdf
+* http://www.fec.gov/pdf/forms/fecfrm3xi.pdf
+* http://www.fec.gov/pdf/forms/fecfrm3x.pdf
 
 Form 3 	Report of Receipts and Disbursements [PDF] for House and Senate candidates' authorized campaign committees (includes Schedules A - D).  Instructions [PDF]   	Post-Election Detailed Summary Page (Form 3) [PDF].  Instructions [PDF]
 Form 3L 	Report of Contributions Bundled by Lobbyists/Registrants and Lobbyist/Registrant PACs [PDF] used by candidates, party committees and Leadership PACs to disclose bundled contributions forwarded by or credited to lobbyists, registrants and their PACs. Instructions [PDF]
@@ -87,12 +81,12 @@ SD + [9; 10]
     SD (Debts & Obligations)
 
 Form 3X
-docs : [ 
-    fecfrm3x_06.pdf,
-    fecfrm3xi_05.pdf,
-    fecfrm3xi_06.pdf,
-    fecfrm3xi.pdf,
-    fecfrm3x.pdf ]
+=======
+* http://www.fec.gov/pdf/forms/fecfrm3x_06.pdf
+* http://www.fec.gov/pdf/forms/fecfrm3xi_05.pdf
+* http://www.fec.gov/pdf/forms/fecfrm3xi_06.pdf
+* http://www.fec.gov/pdf/forms/fecfrm3xi.pdf
+* http://www.fec.gov/pdf/forms/fecfrm3x.pdf
 
 SA
 SB +  [11AI; 11B; 11C; 12; 13; 14; 15; 16; 17; 18; SI1; SL1A; SL2] 
@@ -128,12 +122,12 @@ Report of Receipts and Disbursements [PDF] for Presidential candidates' authoriz
 Instructions [PDF]  	Post-Election Detailed Summary Page (Form 3P) [PDF]
 Instructions [PDF]
 
-fecfrm3pi.pdf
-fecfrm3posti.pdf
-fecfrm3post.pdf
-fecfrm3p.pdf
-fecfrm3pposti.pdf
-fecfrm3ppost.pdf
+* http://www.fec.gov/pdf/forms/fecfrm3pi.pdf
+* http://www.fec.gov/pdf/forms/fecfrm3posti.pdf
+* http://www.fec.gov/pdf/forms/fecfrm3post.pdf
+* http://www.fec.gov/pdf/forms/fecfrm3p.pdf
+* http://www.fec.gov/pdf/forms/fecfrm3pposti.pdf
+* http://www.fec.gov/pdf/forms/fecfrm3ppost.pdf
 
     F3P (Summaries)
     F3PS
@@ -144,10 +138,6 @@ fecfrm3ppost.pdf
     F3S
     F3X (Report of Receipts and Disbursements for Other Than an Authorized Committee)
 
-forms : [ fecfrm3p.pdf
-          fecfrm3pposti.pdf
-          fecfrm3ppost.pdf
-]
 
 SA
 SB +
@@ -163,11 +153,11 @@ Form 4
 
     F4 (Report of Receipts and Disbursements for a Convention Committee)
     
-fecfrm4i.pdf
-fecfrm4.pdf
+* http://www.fec.gov/pdf/forms/fecfrm4i.pdf
+* http://www.fec.gov/pdf/forms/fecfrm4.pdf
 
 Form 4 	Report of Receipts and Disbursements [PDF] filed by committees or organizations supporting a national nominating convention (includes Schedules A - D). 
-    fecfrm4i.pdf fecfrm4.pdf
+
 
 * SA + [13; 14A; 15B; 15; 16A; 16B; 17A; 17B; 18A; 18B; 19A; 19B]
 * SB + [21A; 21B; 22; 23A; 23B; 24A; 24B]
@@ -196,9 +186,9 @@ Form 5
 #F56
 #F57
 Form 5 	Report of Independent Expenditures Made and Contributions Received [PDF] filed by individuals or groups.
-fecfrm5i.pdf
-fecfrm5.pdf
-fecfrm5sf.pdf
+* http://www.fec.gov/pdf/forms/fecfrm5i.pdf
+* http://www.fec.gov/pdf/forms/fecfrm5.pdf
+* http://www.fec.gov/pdf/forms/fecfrm5sf.pdf
 
 Form 6
 ======
@@ -207,22 +197,22 @@ Form 6
 
 # F65
 Form 6 	48-Hour Notice of Contributions/Loans Received [PDF] used to disclose the receipt of last-minute contributions of $1,000 or more.  Instructions [PDF] Online Webform
-fecfrm6i.pdf
-fecfrm6.pdf
+* http://www.fec.gov/pdf/forms/fecfrm6i.pdf
+* http://www.fec.gov/pdf/forms/fecfrm6.pdf
 
 Form 7
 ======
 * Form 7 	Report of Communication Costs by Corporations and Membership Organizations (includes instructions) [PDF].
 * Form 7 (SF) 	Screen-fillable version of the Report of Communication Costs by Corporations and Membership Organizations (includes instructions) [PDF].
 
-fecform7.pdf
+* http://www.fec.gov/pdf/forms/fecform7.pdf
 
 # F76
 
 Form 8
 ======
-fecfrm8i.pdf
-fecfrm8.pdf
+* http://www.fec.gov/pdf/forms/fecfrm8i.pdf
+* http://www.fec.gov/pdf/forms/fecfrm8.pdf
 Form 8 	Debt Settlement Plan [PDF] filed by committees attempting to settle
 debts for less than the full amount owed.
 
@@ -239,9 +229,9 @@ Form 9
     F94 (Federal Candidates List for Electioneering Communications)
     F99 (Miscellaneous Text)
 
-* fecfrm9i_06.pdf
-* fecfrm9i.pdf
-* fecfrm9.pdf
+* http://www.fec.gov/pdf/forms/fecfrm9i_06.pdf
+* http://www.fec.gov/pdf/forms/fecfrm9i.pdf
+* http://www.fec.gov/pdf/forms/fecfrm9.pdf
 
 #F91
 #F92
@@ -257,27 +247,25 @@ Form 9 (SF) 	Screen-fillable version of the 24-Hour Notice of Disbursements/Obli
 
 Form 10
 =======
-fecfrm10i.pdf
+* http://www.fec.gov/pdf/forms/fecfrm10i.pdf
 
 
 Form 11
 =======
-fecfrm11i.pdf
-fecfrm11.pdf
+* http://www.fec.gov/pdf/forms/fecfrm11i.pdf
+* http://www.fec.gov/pdf/forms/fecfrm11.pdf
 
 Form 12
 =======
-fecfrm12i.pdf
-fecfrm12.pdf
+* http://www.fec.gov/pdf/forms/fecfrm12i.pdf
+* http://www.fec.gov/pdf/forms/fecfrm12.pdf
 
 Form 13
 =======
 
 Form 13 	Report of Donations Accepted for Inaugural Committee [PDF]. Instructions [PDF]
-
-
-fecfrm13i.pdf
-fecfrm13.pdf
+* http://www.fec.gov/pdf/forms/fecfrm13i.pdf
+* http://www.fec.gov/pdf/forms/fecfrm13.pdf
 
 #F132
 #F133
@@ -290,3 +278,6 @@ IE-Only Letter 	Letter independent expenditure-only committees may use in conjun
 Non-contribution Letter 	Letter committees with non-contribution accounts
 may use in conjunction with Form 1, pending forthcoming Commission rulemakings.
 
+
+* http://www.fec.gov/pdf/forms/ie_only_letter.pdf
+* http://www.fec.gov/pdf/forms/noncontribution_letter.pdf
